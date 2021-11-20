@@ -3,3 +3,5 @@ numpy==1.19.5
 pandas==1.2.4
 scikit_learn==1.0.1
 seaborn==0.11.1
+flask==2.0.2
+requests==2.26.0
