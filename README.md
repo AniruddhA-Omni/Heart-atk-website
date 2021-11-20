@@ -17,7 +17,7 @@ We have made a tool for the prediction of Heart Attack using Machine Learning Mo
 * the slope of the peak exercise ST segment
 * number of major vessels (0-3) colored by flourosopy
 * thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
-* target: 0 = less chance of heart attack <br /> 
+* target:<br /> 0 = less chance of heart attack <br /> 
             1 = more chance of heart attack <br />
 THAL = Thalassemia (thal-uh-SEE-me-uh) is an inherited blood disorder that causes your body to have less hemoglobin than normal. Hemoglobin enables red blood cells to carry oxygen. Thalassemia can cause anemia, leaving you fatigued. If you have mild thalassemia, you might not need treatment. <br />
 cp: chest pain type <br />
