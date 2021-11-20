@@ -9,7 +9,7 @@
     <style>
         body {
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-            background-size: 400% 400%;
+            background-size: 600% 600%;
             animation: gradient 15s ease infinite;
             height: 100vh;
         }
@@ -32,11 +32,11 @@
             border: 2px solid black;
             margin-left: 30%;
             margin-right: 30%;
-            margin-top: 15%;
+            margin-top: 4%;
             background-color: rgb(241, 221, 177);
             border-radius: 5px;
             padding-left: 5%;
-            padding-top: 3%;
+            padding-top: 1%;
             padding-bottom: 3%;
             box-shadow: 1px 1px 5px 12px rgb(233, 220, 33);
         }
@@ -157,14 +157,41 @@
             
             <div>
             <a class="home-link" href="#">Home</a>
+
+           
+
             <form>
                 <div class="card1">
-                    <label>Name</label><br>
-                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+                    <h3>Name</h3>
+                    <input class="bar" id="fname" type="text" name="firstname">
 
-                    <label>Age</label><br>
-                    <input id="lname" type="text" name="lastname"><br><br>
+                    <h3>Age</h3>
+                    <input id="lname" type="text" name="lastname">
+                    
+                    <!-- <h3>Gender</h3>
+                    <select id="car">
+                        
+                        <option id="car1" value="volvo" name="vol">male</option>
+                        <option id="car2"  value="benz" name="ben">female</option>
+                    </select><br> -->
+                    
 
+
+                    <h3>Gender:</h3>
+
+                    <input type="radio" name="gender" value="1">male<br>
+                    <input type="radio" name="gender" value="0">female<br>
+
+                    <h3>Chest pain type:</h3>
+
+                    <input type="radio" name="gender" value="0">Typical angina<br>
+                    <input type="radio" name="gender" value="1">atypical angina<br>
+                    <input type="radio" name="gender" value="1"> non-anginal pain<br>
+                    <input type="radio" name="gender" value="1">asymptomatic pain<br><br>
+
+                    <h3>Resting blood pressure</h3>
+
+                    <input  type="text" name="firstname">
                 </div>
                 <br>
                 <br>
@@ -177,14 +204,22 @@
 
                 <div id="card2">
                     
-                    <label>birthday</label><br>
-                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+                    
 
-                    <label>bp</label><br>
-                    <input id="lname" type="text" name="lastname"><br><br>
+                    <h3>serum cholestoral in mg/dl</h3>
+                    <input  type="text" name="lastname">
 
-                    <label>blood grp</label><br>
-                    <input id="mail" type="email"  name="lastname" > <br><br>
+                    <h3>fasting blood sugar</h3>
+                    <input type="radio"  name="lastname" >Greater than 120mg/dl<br>
+                    <input type="radio"  name="lastname" >Greater than 120mg/dl<br>
+                    
+                    <h3>Resting ElectroCardiag results:</h3>
+                    <input type="radio"  name="lastname" >Normal<br>
+                    <input type="radio"  name="lastname" >having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)<br>
+                    <input type="radio"  name="lastname" >showing probable or definite left ventricular hypertrophy by Estes' criteria<br>
+
+                    <h3>maximum heart rate achieved</h3>
+                    <input  type="text" name="lastname"><br><br>
                 </div>
                 <br>
                 <br>
@@ -199,31 +234,27 @@
 
                 <div id="card3">
                     
-                    <label>movie</label><br>
-                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+                    <h3> exercise induced angina</h3>
+                    <input class="bar" id="fname" type="text" name="firstname">
 
-                    <label>game</label><br>
+                    <h3>game</h3><br>
                     <input id="lname" type="text" name="lastname"><br><br>
 
-                    <label>player</label><br>
+                    <h3>player</h3><br>
                     <input id="mail" type="email"  name="lastname" > <br><br>
                 </div>
                 <br>
                 <br>
                 <a href="#p2" class="previous">Previous</a>
-                <a href="#p2" class="next2">Next</a>
+                
+                
             </form>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             
+
             </div>
         </div>
     </div>
+
     
 
 
