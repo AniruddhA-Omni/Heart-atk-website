@@ -46,7 +46,7 @@
             border: 2px solid black;
             margin-left: 30%;
             margin-right: 30%;
-            margin-top: 18%;
+            margin-top: 13%;
             background-color: rgb(241, 221, 177);
             border-radius: 5px;
             padding-left: 5%;
@@ -61,7 +61,7 @@
             border: 2px solid black;
             margin-left: 30%;
             margin-right: 30%;
-            margin-top: 18%;
+            margin-top: 9%;
             background-color: rgb(241, 221, 177);
             border-radius: 5px;
             padding-left: 5%;
@@ -135,9 +135,6 @@
 
 
         
-            input {
-                width: 70%;
-            }
         
     </style>
 </head>
@@ -163,17 +160,12 @@
             <form>
                 <div class="card1">
                     <h3>Name</h3>
-                    <input class="bar" id="fname" type="text" name="firstname">
+                    <input  type="text" name="name">
 
                     <h3>Age</h3>
-                    <input id="lname" type="text" name="lastname">
+                    <input id="lname" type="text" name="age">
                     
-                    <!-- <h3>Gender</h3>
-                    <select id="car">
-                        
-                        <option id="car1" value="volvo" name="vol">male</option>
-                        <option id="car2"  value="benz" name="ben">female</option>
-                    </select><br> -->
+                   
                     
 
 
@@ -184,14 +176,14 @@
 
                     <h3>Chest pain type:</h3>
 
-                    <input type="radio" name="gender" value="0">Typical angina<br>
-                    <input type="radio" name="gender" value="1">atypical angina<br>
-                    <input type="radio" name="gender" value="1"> non-anginal pain<br>
-                    <input type="radio" name="gender" value="1">asymptomatic pain<br><br>
+                    <input type="radio" name="chestpain" value="0">Typical angina<br>
+                    <input type="radio" name="chestpain" value="1">atypical angina<br>
+                    <input type="radio" name="chestpain" value="2"> non-anginal pain<br>
+                    <input type="radio" name="chestpain" value="3">asymptomatic pain<br><br>
 
                     <h3>Resting blood pressure</h3>
 
-                    <input  type="text" name="firstname">
+                    <input  type="text" name="restbp">
                 </div>
                 <br>
                 <br>
@@ -207,19 +199,19 @@
                     
 
                     <h3>serum cholestoral in mg/dl</h3>
-                    <input  type="text" name="lastname">
+                    <input  type="text" name="chol">
 
                     <h3>fasting blood sugar</h3>
-                    <input type="radio"  name="lastname" >Greater than 120mg/dl<br>
-                    <input type="radio"  name="lastname" >Greater than 120mg/dl<br>
+                    <input type="radio"  name="fbs" value="1" >Greater than 120mg/dl<br>
+                    <input type="radio"  name="fbs" value="0">Less than 120mg/dl<br>
                     
                     <h3>Resting ElectroCardiag results:</h3>
-                    <input type="radio"  name="lastname" >Normal<br>
-                    <input type="radio"  name="lastname" >having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)<br>
-                    <input type="radio"  name="lastname" >showing probable or definite left ventricular hypertrophy by Estes' criteria<br>
+                    <input type="radio"  name="recg" value="0">Normal<br>
+                    <input type="radio"  name="recg" value="1">having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)<br>
+                    <input type="radio"  name="recg" value="2">showing probable or definite left ventricular hypertrophy by Estes' criteria<br>
 
                     <h3>maximum heart rate achieved</h3>
-                    <input  type="text" name="lastname"><br><br>
+                    <input  type="text" name="hb"><br><br>
                 </div>
                 <br>
                 <br>
@@ -234,18 +226,45 @@
 
                 <div id="card3">
                     
-                    <h3> exercise induced angina</h3>
-                    <input class="bar" id="fname" type="text" name="firstname">
+                    <h3> Exercise induced angina:</h3>
+                    <input  type="radio" name="ani" value="1">Yes<br>
+                    <input  type="radio" name="ani" value="0">No<br>
 
-                    <h3>game</h3><br>
-                    <input id="lname" type="text" name="lastname"><br><br>
+                    <h3>Oldpeak : ST depression induced by exercise relative to rest</h3>
+                    <input  type="text" name="oldpeak">
 
-                    <h3>player</h3><br>
-                    <input id="mail" type="email"  name="lastname" > <br><br>
+                    <h3>Slope: the slope of the peak exercise ST segment</h3>
+                    <input  type="text"  name="slope" > 
+
+                    <h3>Number of major vessels (0-3) colored by flourosopy</h3>
+                    <input  type="radio"  name="lastname" >0<br>
+                    <input  type="radio"  name="lastname" >1<br>
+                    <input  type="radio"  name="lastname" >2<br>
+                    <input  type="radio"  name="lastname" >3<br>
+
+                    <h3>Thalassemia</h3>
+                    <input  type="radio"  name="lastname" >Normal<br>
+                    <input  type="radio"  name="lastname" >Fixed defect<br>
+                    <input  type="radio"  name="lastname" >reversible defect<br>
+                   
+
+
+
                 </div>
                 <br>
                 <br>
                 <a href="#p2" class="previous">Previous</a>
+                <a href="#p2" class="next2">Submit</a>
+                <br>
+                <br>
+                <br>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
                 
                 
             </form>
