@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .card1 {
+            border: 2px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 15%;
+            background-color: rgb(241, 221, 177);
+            border-radius: 5px;
+            padding-left: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            box-shadow: 1px 1px 5px 12px rgb(233, 220, 33);
+        }
+
+
+        #card2 {
+            border: 2px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 18%;
+            background-color: rgb(241, 221, 177);
+            border-radius: 5px;
+            padding-left: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            box-shadow: 1px 1px 5px 12px rgb(233, 220, 33);
+        }
+         
+
+
+        #card3 {
+            border: 2px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 18%;
+            background-color: rgb(241, 221, 177);
+            border-radius: 5px;
+            padding-left: 5%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            box-shadow: 1px 1px 5px 12px rgb(233, 220, 33);
+        }
+
+
+
+        .next1{
+            margin-left: 63%;
+            text-decoration: none;
+            color:black;
+            background-color: orange;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-radius: 5px;
+            font-size: 120%;
+        }
+
+        .next2{
+            margin-left: 25%;
+            text-decoration: none;
+            color:black;
+            background-color: orange;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-radius: 5px;
+            font-size: 120%;
+        }
+
+        .previous{
+            margin-left: 30%;
+            
+            text-decoration: none;
+            color:black;
+            background-color: orange;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-radius: 5px;
+            font-size: 120%;
+        }
+
+        #p2{
+            margin-top: 5%;
+        }
+
+        #p3{
+            margin-top: 5%;
+        }
+        
+
+        .home-link{
+            text-decoration: none;
+            margin-left: 5%;
+            color: white;
+            font-size: 2vw;
+            
+        }
+
+        a:hover{
+            color: rgb(82, 253, 39);
+        }
+
+
+        
+            input {
+                width: 70%;
+            }
+        
+    </style>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            
+            <div>
+            <a class="home-link" href="#">Home</a>
+            <form>
+                <div class="card1">
+                    <label>Name</label><br>
+                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+
+                    <label>Age</label><br>
+                    <input id="lname" type="text" name="lastname"><br><br>
+
+                </div>
+                <br>
+                <br>
+                <a href="#p2" class="next1">Next</a>
+                
+                <div id="p2">
+                  
+
+                </div>
+
+                <div id="card2">
+                    
+                    <label>birthday</label><br>
+                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+
+                    <label>bp</label><br>
+                    <input id="lname" type="text" name="lastname"><br><br>
+
+                    <label>blood grp</label><br>
+                    <input id="mail" type="email"  name="lastname" > <br><br>
+                </div>
+                <br>
+                <br>
+                <a href="#" class="previous">Previous</a>
+                <a href="#p3" class="next2">Next</a>
+    
+                <div id="p3">
+                  
+
+                </div>
+                
+
+                <div id="card3">
+                    
+                    <label>movie</label><br>
+                    <input class="bar" id="fname" type="text" name="firstname"><br><br>
+
+                    <label>game</label><br>
+                    <input id="lname" type="text" name="lastname"><br><br>
+
+                    <label>player</label><br>
+                    <input id="mail" type="email"  name="lastname" > <br><br>
+                </div>
+                <br>
+                <br>
+                <a href="#p2" class="previous">Previous</a>
+                <a href="#p2" class="next2">Next</a>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>
