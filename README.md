@@ -6,6 +6,7 @@ We have made a tool for the prediction of Heart Attack using Machine Learning Mo
 # Project Details
 * We shall train and validate models and develop a machine learning pipeline for deployment.
 * We shall build a HTML front end with an input form for independent variables(age, sex, chest pain type, resting blood pressure etc.)
+* Build a back-end of the web application using Flask Framework
 * 
 
 # Attributes
