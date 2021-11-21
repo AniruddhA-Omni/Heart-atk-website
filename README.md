@@ -20,9 +20,9 @@ We have made a tool for the prediction of Heart Attack using Machine Learning Mo
             -- Value 2: atypical angina <br />
             -- Value 3: non-anginal pain <br />
             -- Value 4: asymptomatic <br />
-* resting blood pressure   <br />         
+* resting blood pressure<br />         
             trestbps: resting blood pressure (in mm Hg on admission to the hospital) <br />
-* serum cholestoral in mg/dl         <br />   
+* serum cholestoral in mg/dl<br />   
             chol: serum cholestoral in mg/dl <br />
 * fasting blood sugar > 120 mg/dl
 * resting electrocardiographic results (values 0,1,2)<br />
@@ -41,7 +41,7 @@ oldpeak = ST depression induced by exercise relative to rest<br />
             -- Value 2: flat<br />
             -- Value 3: downsloping<br />
 * number of major vessels (0-3) colored by flourosopy <br />
-* thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+* thal: 0 = normal; 1 = fixed defect; 2 = reversable defect <br />
             Thalassemia (thal-uh-SEE-me-uh) is an inherited blood disorder that causes your body to have less hemoglobin than normal. Hemoglobin enables red blood cells to carry             oxygen. Thalassemia can cause anemia, leaving you fatigued. If you have mild thalassemia, you might not need treatment. <br />
 * target:<br /> 0 = less chance of heart attack <br /> 
             1 = more chance of heart attack <br />
