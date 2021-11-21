@@ -14,7 +14,7 @@ We have made a tool for the prediction of Heart Attack using Machine Learning Mo
 * age
 * sex:<br /> 0 = Female <br /> 
             1 = Male <br />
-* chest pain type (4 values)
+* chest pain type (4 values) <br/>
             cp: chest pain type <br />
             -- Value 1: typical angina <br />
             -- Value 2: atypical angina <br />
