@@ -4,6 +4,7 @@
 We have made a tool for the prediction of Heart Attack using Machine Learning Model. We have also made a website for the same. The website will take input paramaters related to their health like blood pressure, occurrence of chest pain etc. from the user, and based on it, will provide the output (chances of getting heart attack) from our model on the website.
 
 # Problem Statement
+We are observing a recent trend of increase in heart attack fatalities with every passing generation. With the consultation of medical experts, we have figured out, that with the increasing workload, stress, and unhealthy lifestyle, ther's an increase in the upwardness of the curve of heart attack victims. Due to the lack of awareness of the general masses, this trend is not going to reduce in the coming future. We, as a group of four, did a brainstorming session to figure out what we can do, and have tried our best to come to the solution.
 
 # Project Details
 * We shall train and validate models and develop a machine learning pipeline for deployment.
