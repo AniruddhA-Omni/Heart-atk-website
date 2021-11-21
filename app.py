@@ -4,7 +4,7 @@ import numpy as np
 
 
 
-model = pickle.load(open('tuned_model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 app = Flask(__name__)
 
