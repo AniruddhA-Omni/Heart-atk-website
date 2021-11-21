@@ -3,6 +3,8 @@
 
 We have made a tool for the prediction of Heart Attack using Machine Learning Model. We have also made a website for the same. The website will take input paramaters related to their health like blood pressure, occurrence of chest pain etc. from the user, and based on it, will provide the output (chances of getting heart attack) from our model on the website.
 
+# Problem Statement
+
 # Project Details
 * We shall train and validate models and develop a machine learning pipeline for deployment.
 * We shall build a HTML front end with an input form for independent variables(age, sex, chest pain type, resting blood pressure etc.)
