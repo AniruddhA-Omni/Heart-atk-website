@@ -40,5 +40,5 @@ We are observing a recent trend of increase in heart attack fatalities with ever
             -- Value 2: flat<br />
             -- Value 3: downsloping<br />
 * number of major vessels (0-3) colored by flourosopy <br />
-* thal: 0 = normal; 1 = fixed defect; 2 = reversable defect <br />
+* thal: 1 = normal; 2 = fixed defect; 3 = reversable defect <br />
             Thalassemia (thal-uh-SEE-me-uh) is an inherited blood disorder that causes your body to have less hemoglobin than normal. Hemoglobin enables red blood cells to carry             oxygen. Thalassemia can cause anemia, leaving you fatigued. If you have mild thalassemia, you might not need treatment. <br />
