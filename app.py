@@ -2,7 +2,9 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
-model = pickle.load(open('model.pkl', 'rb'))
+
+
+model = pickle.load(open('tuned_model.pkl', 'rb'))
 
 app = Flask(__name__)
 
@@ -21,19 +23,29 @@ def nav():
 
 
 
+@app.route('/templates/result.html')
+def res():
+    return render_template('result.html')
+
+
+
+
+
+
+
 @app.route('/predict', methods=['POST'])
 def home():
     peru=request.form['name']
     data1 = int(request.form['age'])
     data2 = int(request.form['gender'])
     data3 = int(request.form['chestpain'])
-    data4 = int(request.form['restbp'])
+    data4 = int(request.form['rbp'])
     data5 = int(request.form['chol'])
     data6 = int(request.form['fbs'])
     data7 = int(request.form['recg'])
-    data8 = int(request.form['hb'])
+    data8 = int(request.form['hr'])
     data9 = int(request.form['ani'])
-    data10 = int(request.form['oldpeak'])
+    data10 = float(request.form['oldpeak'])
     data11= int(request.form['slope'])
     data12= int(request.form['vessels'])
     data13= int(request.form['thal'])
