@@ -5,3 +5,8 @@ scikit_learn==1.0.1
 seaborn==0.11.1
 flask==2.0.2
 requests==2.26.0
+pycaret==2.3.4
+gunicorn==20.1.0
+Jinja2==2.11.3
+certifi==2020.12.5
+itsdangerous==1.1.0
