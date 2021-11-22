@@ -27,12 +27,12 @@ def res():
 
 
 @app.route('/templates/about.html')
-def res():
+def about():
     return render_template('about.html')
 
 
 @app.route('/templates/descrip.html')
-def res():
+def description():
     return render_template('descrip.html')
 
 
