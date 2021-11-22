@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Result</title>
     <style>
         /* Container holding the image and the text */
         .container {
@@ -17,7 +17,7 @@
             position: absolute;
             bottom: 58%;
             left: 5%;
-            
+            font-family: Helvetica, sans-serif;
             background-color: rgba(0, 0, 0,0.5);
             color: rgb(245, 196, 91);
             padding-left: 5%;
@@ -61,20 +61,20 @@
             <h1> Prediction Results: </h1>
 
             <br>
-            <h1>{{name}}, your result is {{data}}</h1>
+            <h1>Hi {{name}} <br> Your result is {{data}}</h1>
 
             {%if data == 0%}
-            <h1>Your chances of getting heart attck is very low</h1>
+            <h1>I have a Great news!!!! <br>Your chances of getting heart attack is very LOW.</h1>
 
 
             {%else%}
-            <h1>your chances of getting heart attack is high</h1>
+            <h1>Your chances of getting heart attack is HIGH!!!h</h1>
 
 
             {%endif%}
 
             <br>
-            <a id="link" href='/'>go back to home page</a>
+            <a id="link" href='/'>Go back to Home page</a>
         </div>
         
     </div>
