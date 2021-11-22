@@ -1,30 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        /* Container holding the image and the text */
+        .container {
+            position: relative;
+        }
+
+        /* Bottom right text */
+        .text-block {
+            position: absolute;
+            bottom: 58%;
+            left: 5%;
+            
+            background-color: rgba(0, 0, 0,0.5);
+            color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            border-radius: 5px;
+        }
+
+        #link{
+            text-decoration: none;
+            color: white;
+            background-color: blue;
+            padding: 1%;
+            border-radius: 4px;
+        }
+
+        @media screen and (max-width: 360px) { 
+
+
+            img{
+                height: 640px;
+            }
+            .text-block {
+            position: absolute;
+            bottom: 6%;
+            left: 3%;
+            right: 3%;
+        }
+
+
+       }
+
+        
+
+    </style>
 </head>
-<body style="background-color: rgb(153, 224, 233);">
-    
-    <h1>  Prediction Results:  </h1>
 
-    <br>
-   <h1>{{name}}, your result is {{data}}</h1>
+<body>
+    <div class="container">
+        <img src="/static/V6z0Eb.jpg" alt="Norway" style="width:100%;">
+        <div class="text-block">
+            <h1> Prediction Results: </h1>
 
-{%if data == 0%}
-<h1>Your chances of getting heart attck is very low</h1>  
+            <br>
+            <h1>{{name}}, your result is {{data}}</h1>
+
+            {%if data == 0%}
+            <h1>Your chances of getting heart attck is very low</h1>
 
 
-{%else%}
-<h1>your chances of getting heart attack is high</h1>
+            {%else%}
+            <h1>your chances of getting heart attack is high</h1>
 
 
-{%endif%}
+            {%endif%}
 
-   <br><br>
-<a href='/'>go back to home page</a>
+            <br>
+            <a id="link" href='/'>go back to home page</a>
+        </div>
+    </div>
 </body>
+
 </html>
+
